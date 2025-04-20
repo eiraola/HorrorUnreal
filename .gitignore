@@ -72,3 +72,47 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Unreal Engine auto-generated files ---
+
+# Ignore autosave files
+Autosaves/
+
+# Ignore local developer-specific files
+.vscode/
+.idea/
+*.user
+*.userprefs
+*.opensdf
+
+# Ignore crash reports
+Saved/Crashes/
+
+# Ignore local shader cache (optional, speeds up editor after rebuilds if not ignored)
+Saved/ShaderWorkingDir/
+
+# Ignore platform-specific intermediate files
+Intermediate/Build/
+
+# Ignore derived data cache (can be outside project folder depending on setup)
+Engine/DerivedDataCache/
+
+# Ignore Logs
+Saved/Logs/
+
+# Ignore DDC and asset registry (optional but can be useful)
+Saved/AssetRegistry/
+Saved/Cooked/
+Saved/Config/WindowsEditor/
+
+# Ignore Code completion files (from some IDEs)
+*.sbr
+*.tlh
+*.tli
+
+# Ignore Mac OS junk
+.DS_Store
+
+# Ignore Windows junk
+Thumbs.db
+desktop.ini
